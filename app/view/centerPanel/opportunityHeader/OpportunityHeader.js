@@ -8,7 +8,7 @@ Ext.define('opportunity.view.centerPanel.opportunityHeader.OpportunityHeader', {
     controller: 'opportunityHeader',
     viewModel: 'opportunityHeader',
     
-    title: 'Opportunity Detail',
+    //title: 'Opportunity Detail',
     padding:10,
     layout:'column',
     defaults: {

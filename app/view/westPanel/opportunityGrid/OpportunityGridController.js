@@ -21,7 +21,7 @@ Ext.define('opportunity.view.westPanel.opportunityGrid.OpportunityGridController
         console.log('opp selected  '+row.data.Name); 
         var me = this;
         me.fireEvent('loadOpportunityInForm', row);
-        
+         me.fireEvent('loadOpportunityLinesInGrid', row);
     }
  
 });
